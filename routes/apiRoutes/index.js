@@ -1,3 +1,5 @@
+//API Route to file and return saved notes to JSON
+// Receive new note and save (and delete) on body while using unique id
 const router = require('express').Router();
 const {createNewNote, updateDb} = require("../../lib/notes");
 const { v4: uuidv4 } = require('uuid');
