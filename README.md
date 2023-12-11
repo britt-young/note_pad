@@ -6,29 +6,31 @@ AS A small business owner
 I WANT to be able to write and save notes
 SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
-## Table of Contents (Optional)
-
-- [Installation](#installation)
-- [Usage](#usage)
-- [Credits](#credits)
-- [License](#license)
-
 ## Installation
-
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
-
+Web Application is deployed using Heroku
+```
+$ heroku git:remote -a <github repository name>
+git add .
+git commit -m "<commit message>"
+git push heroku main
+```
+Web Application also uses npm express.js and "uuid" (Universally Unique Identifier)
+```
+npm install express uuid
+```
+ 
 ## Usage
+* Navigate to the deployed Heroku link
+* Click on the "Write New Note" button
+* Enter the title of your new note in the middle of the page
+* Add contents to your note
+* Choose to "save" or "clear" your new note by selecting the corresponding button in the top right of the navigation bar
+* Once saved, your note will be added to the "library" on the left side of the page
+* User can add a new note, open a previous note by selecting it from the list, or delete previous notes by clicking the trash can icon next to their note
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
-
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
-
-## Credits
-
-
-
-## License
-
-The last section of a high-quality README file is the license. This lets other developers know what they can and cannot do with your project. If you need help choosing a license, refer to [https://choosealicense.com/](https://choosealicense.com/).
+```md
+![Screenshot of Deployed Web App Homepage](/assets/img/homepage)
+```
+```md
+![Screenshot of Deployed Web App Notes Page](/assets/img/notespad)
+```
