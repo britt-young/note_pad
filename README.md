@@ -28,9 +28,9 @@ npm install express uuid
 * Once saved, your note will be added to the "library" on the left side of the page
 * User can add a new note, open a previous note by selecting it from the list, or delete previous notes by clicking the trash can icon next to their note
 
-```
+
 ![Screenshot of Deployed Web App Homepage](public/assets/img/Homepage.png)
-```
-```
+
+
 ![Screenshot of Deployed Web App Notes Page](public/assets/img/Notepad.png)
-```
+
